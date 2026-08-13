@@ -1,0 +1,52 @@
+[index.html](https://github.com/user-attachments/files/31021662/index.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Semantic+JS</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Welcome to My Page</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+
+<section id="home">
+    <h2>Home Section</h2>
+
+    <p id="message">
+        This paragraph will be updated by JavaScript.
+    </p>
+
+    <button onclick="runJS()">Click Me</button>
+</section>
+
+<section id="about">
+    <h2>About Section</h2>
+
+    <div id="output"></div>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Demo Page</p>
+</footer>
+
+<script src="Script.js"></script>
+
+</body>
+</html>
